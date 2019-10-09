@@ -4,6 +4,9 @@
  **/
 
 @import "bugo-forms-vars";
+@debug "Loading Bugo Forms Module SASS";
+@import "custom-variables";
+
 
 form {
   @include ms-respond(font-size, $form-font-size);
