@@ -1,9 +1,11 @@
 .form-container {
-  background-color: $light; 
+  background-color: $form-bg-color; 
+  @include ms-respond(padding,$form-padding);
+  @include ms-respond(margin,$form-margin);
+  @include ms-respond(font-size,$form-font-size);
 }
 
 form {
-  padding: 0;
 }
 
 fieldset {
